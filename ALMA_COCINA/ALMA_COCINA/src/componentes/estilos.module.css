@@ -18,7 +18,7 @@
 .navGrande{
   padding-top: 22px !important;
   padding-bottom: 22px !important;
-  font-size: 20px !important; /* sube el tamaño general */
+  font-size: 20px !important; 
 }
 .brand{
   font-size: 36px !important;
@@ -41,11 +41,11 @@
 
 .footerContainer {
   max-width: 1200px;
-  padding-left: 20px; /* Reducir de 40px a 20px */
+  padding-left: 20px; 
   text-align: left;
 }
 .footerTitle {
-  font-size: 32px; /* Era 24px */
+  font-size: 32px;
   font-weight: 400;
   margin-bottom: 20px;
   font-family: 'Georgia', serif;
@@ -68,7 +68,7 @@
 .footerLink {
   color: white;
   text-decoration: none;
-  font-size: 18px; /* Era 14px */
+  font-size: 18px;
   transition: opacity 0.3s ease;
 }
 
@@ -111,19 +111,20 @@
 }
 
 .imagenp{
-  margin-left: 270px; /* prueba 10px, 15px, 20px */
+  margin-left: 270px; 
 }
 
 .imagen_reserva{
-  width: 100%;          /* ocupa el ancho de su columna */
-  max-width: 100%;      /* nunca se pasa */
-  height: 370px;        /* altura fija para que todas se vean iguales */
-  object-fit: cover;    /* recorta sin deformar */
-  display: block;       /* evita espacios raros */
+  width: 100%;         
+  max-width: 100%;      
+  height: 370px;       
+  object-fit: cover;
+  display: block;      
   border-radius: 12px;
 }
 @media (max-width: 768px){
   .imagen_reserva{
-    height: 280px;      /* más chica en celular */
+    height: 280px;      
   }
+
 }
