@@ -1,8 +1,5 @@
 
 
-
-
-// className={`reserva-section py-5 ${styl.miEstilo}`}
 import { Link } from "react-router-dom";
 import styl from "./estilos.module.css";
 function Seccion_Reservas(){
@@ -34,5 +31,6 @@ function Seccion_Reservas(){
       </div>
     )
 }
+
 
 export default Seccion_Reservas
