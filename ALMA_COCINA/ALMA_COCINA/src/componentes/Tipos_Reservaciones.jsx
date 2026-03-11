@@ -1,6 +1,6 @@
 
 import Imagen_principal2 from './Imagen_principal2'
-// className={styl.imagen_reserva}
+
 import styl from "./estilos.module.css";
 
 //las funciones siempre tienen que estar en mayuscula
@@ -88,3 +88,4 @@ function Reservacion_Vip() {
 }
 
 export default Reservacion_Vip;
+
